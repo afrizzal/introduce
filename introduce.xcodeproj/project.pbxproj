@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BB29A9626933A9800FE1915 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB29A9526933A9800FE1915 /* main.swift */; };
+		1BB29AA3269340AA00FE1915 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB29A9F269340AA00FE1915 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1BB29A9226933A9800FE1915 /* introduce */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = introduce; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BB29A9526933A9800FE1915 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1BB29A9226933A9800FE1915 /* introduce */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = introduce; path = /Users/afrizzal/Downloads/Swift/introduce/build/Debug/introduce; sourceTree = "<absolute>"; };
+		1BB29A9F269340AA00FE1915 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1BB29AA0269340AA00FE1915 /* introduce.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = introduce.xcodeproj; sourceTree = "<group>"; };
+		1BB29AA42693414200FE1915 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,25 +43,31 @@
 		1BB29A8926933A9800FE1915 = {
 			isa = PBXGroup;
 			children = (
-				1BB29A9426933A9800FE1915 /* introduce */,
-				1BB29A9326933A9800FE1915 /* Products */,
+				1BB29AA42693414200FE1915 /* readme.md */,
+				1BB29A9D269340AA00FE1915 /* introduce */,
 			);
 			sourceTree = "<group>";
 		};
-		1BB29A9326933A9800FE1915 /* Products */ = {
+		1BB29A9D269340AA00FE1915 /* introduce */ = {
 			isa = PBXGroup;
 			children = (
-				1BB29A9226933A9800FE1915 /* introduce */,
+				1BB29A9E269340AA00FE1915 /* introduce */,
+				1BB29AA0269340AA00FE1915 /* introduce.xcodeproj */,
 			);
-			name = Products;
+			name = introduce;
 			sourceTree = "<group>";
 		};
-		1BB29A9426933A9800FE1915 /* introduce */ = {
+		1BB29A9E269340AA00FE1915 /* introduce */ = {
 			isa = PBXGroup;
 			children = (
-				1BB29A9526933A9800FE1915 /* main.swift */,
+				1BB29A9F269340AA00FE1915 /* main.swift */,
 			);
 			path = introduce;
+			sourceTree = "<group>";
+		};
+		1BB29AA1269340AA00FE1915 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,8 +113,14 @@
 				Base,
 			);
 			mainGroup = 1BB29A8926933A9800FE1915;
-			productRefGroup = 1BB29A9326933A9800FE1915 /* Products */;
+			productRefGroup = 1BB29A8926933A9800FE1915;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1BB29AA1269340AA00FE1915 /* Products */;
+					ProjectRef = 1BB29AA0269340AA00FE1915 /* introduce.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1BB29A9126933A9800FE1915 /* introduce */,
@@ -119,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BB29A9626933A9800FE1915 /* main.swift in Sources */,
+				1BB29AA3269340AA00FE1915 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
